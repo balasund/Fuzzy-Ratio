@@ -1,0 +1,180 @@
+pip install fuzzywuzzy
+
+pip install python-Levenshtein
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "Good Morning"
+
+s2 = "hi gud morning"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "I am  bala"
+
+s2 = "My name is   bala"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "Cat"
+
+s2 = "dog"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "Cat"
+
+s2 = "taC"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "I want mobile"
+
+s2 = "Samsung"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "I want mobile"
+
+s2 = "Nokia"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "I want mobile"
+
+s2 = "mobile"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "movie"
+
+s2 = "Super Star"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = 4
+
+s2 = 4
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
+
+
+
+
+
+from fuzzywuzzy import fuzz
+
+from fuzzywuzzy import process
+
+
+s1 = "11113"
+
+s2 = "4"
+
+
+b=fuzz.WRatio(s1, s2)
+
+print (("\nFuzzy WRatio: "), b)
